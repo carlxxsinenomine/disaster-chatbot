@@ -1,0 +1,30 @@
+langchain-text-splitters
+langchain-core
+langchain-community
+# Core Dependencies for Disaster Chatbot - Phase 2
+
+# LangChain and components
+langchain==0.1.0
+langchain-google-genai==0.0.6
+
+# PDF Processing
+pypdf==3.17.4
+
+# Vector Database
+chromadb==0.4.22
+
+# Local Embeddings
+sentence-transformers==2.3.1
+torch==2.1.2
+
+# Progress bars
+tqdm==4.66.1
+
+# Utilities
+python-dotenv==1.0.0
+
+# For future phases
+streamlit==1.29.0
+
+# Optional but recommended
+numpy==1.26.3
