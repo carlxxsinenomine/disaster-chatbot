@@ -243,13 +243,6 @@ def demo_chatbot():
     print("DISASTER RISK REDUCTION CHATBOT - DEMO")
     print("="*70)
 
-    # Initialize chatbot (make sure to set your API key!)
-    # Option 1: Set environment variable
-    # export GOOGLE_API_KEY="your-api-key-here"
-
-    # Option 2: Pass directly (not recommended for production)
-    # chatbot = DisasterChatbot(gemini_api_key="your-api-key-here")
-
     try:
         chatbot = DisasterChatbot()
     except ValueError as e:
@@ -373,4 +366,5 @@ if __name__ == "__main__":
     else:
         demo_chatbot()
         print("\n💡 Tip: Run with --interactive flag for chat mode:")
+
         print("   python rag_pipeline.py --interactive")
